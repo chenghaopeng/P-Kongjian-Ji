@@ -1,42 +1,41 @@
-欢迎使用P控件集
+#P控件集现已弃坑。
 
-简介：
+---
+##简介
 P控件集是一套基于VB、应用于VB的UI系统。
 现最新版本为7，之前已有版本1、版本2、版本3、版本4、版本5。
 现已包含25个控件，基本可以满足日常的程序界面设计。
 
-P控件集版本7说明：
+##P控件集版本7说明
 本程序需要VB运行库支持，请自行下载安装。
 本程序将访问网络，请确认网络是否可用。
-本程序引用了“等线 Light”字体，如果系统中没有该字
-体，会使程序中所有字体均显示为“宋体”，影响外观，
-但不影响使用。如有需要，请自行下载安装该字体。
+本程序引用了“等线 Light”字体，如果系统中没有该字体，会使程序中所有字体均显示为“宋体”，影响外观，但不影响使用。如有需要，请自行下载安装该字体。
 
-P控件集简史：
-	2014年9月6日，P控件集开始制作
-	2014年9月7日，于百度VB吧发布版本1预告
-		http://tieba.baidu.com/p/3281539319
-	2014年10月2日，发布P控件集版本1
-		http://tieba.baidu.com/p/3327697860
-	2014年11月15日，发布P控件集版本2
-		http://tieba.baidu.com/p/3411960638
-	2015年1月3日，发布P控件集版本3
-		http://tieba.baidu.com/p/3505620343
-	2015年2月23日，于百度VB吧发布版本4预告
-		http://tieba.baidu.com/p/3599612882
-	2015年3月8日，发布P控件集版本4
-		http://tieba.baidu.com/p/3623734163
-	2015年4月17日，于百度VB吧发布版本5预告
-		http://tieba.baidu.com/p/3707173054
-	2015年5月24日，发布P控件集版本5
-		http://tieba.baidu.com/p/3782929039
-	2016年3月5日，于百度VB吧发布版本7预告
-		http://tieba.baidu.com/p/4392381562
-	2016年3月27日，发布P控件集版本7
-		http://tieba.baidu.com/p/4439538240
+##P控件集简史
+2014年9月6日，P控件集开始制作
+2014年9月7日，于百度VB吧发布版本1预告
+—http://tieba.baidu.com/p/3281539319
+2014年10月2日，发布P控件集版本1
+—http://tieba.baidu.com/p/3327697860
+2014年11月15日，发布P控件集版本2
+—http://tieba.baidu.com/p/3411960638
+2015年1月3日，发布P控件集版本3
+—http://tieba.baidu.com/p/3505620343
+2015年2月23日，于百度VB吧发布版本4预告
+—http://tieba.baidu.com/p/3599612882
+2015年3月8日，发布P控件集版本4
+—http://tieba.baidu.com/p/3623734163
+2015年4月17日，于百度VB吧发布版本5预告
+—http://tieba.baidu.com/p/3707173054
+2015年5月24日，发布P控件集版本5
+—http://tieba.baidu.com/p/3782929039
+2016年3月5日，于百度VB吧发布版本7预告
+—http://tieba.baidu.com/p/4392381562
+2016年3月27日，发布P控件集版本7
+—http://tieba.baidu.com/p/4439538240
+		
 ---
-
----
+##P控件集各控件的使用方法
 控件名：PButton （按钮）
 属性：
 .Color_Back（长整型）
@@ -89,6 +88,7 @@ P控件集简史：
 方法：
 .Refresh
 ..刷新/重绘按钮
+
 ---
 控件名：PCheckBox （选择框）
 属性：
@@ -122,6 +122,7 @@ P控件集简史：
 ..鼠标弹起事件
 ...NValue（布尔型）：返回多选框是否被选中
 方法：无
+
 ---
 控件名：PSwitch （开关）
 属性：
@@ -158,6 +159,7 @@ P控件集简史：
 ..鼠标弹起事件
 ...NValue（布尔型）：返回当前滚动条的值
 方法：无
+
 ---
 控件名：PProgressBar （进度条）
 属性：
@@ -181,6 +183,7 @@ P控件集简史：
 .MouseUp(Button As Integer, Shift As Integer, x As Single, y As Single)
 ..鼠标弹起事件
 方法：无
+
 ---
 控件名：PVScrollBar （竖滚动条）
 属性：
@@ -223,6 +226,7 @@ P控件集简史：
 ..鼠标弹起事件
 ...NValue（单精度型）：返回当前滚动条的值
 方法：无
+
 ---
 名称：PHScrollBar （横滚动条）
 属性：
@@ -265,6 +269,7 @@ P控件集简史：
 ..鼠标弹起事件
 ...NValue（单精度型）：返回当前滚动条的值
 方法：无
+
 ---
 控件名：PPictureBox （图片框）
 属性：
@@ -294,6 +299,7 @@ P控件集简史：
 .MouseUp(Button As Integer, Shift As Integer, x As Single, y As Single)
 ..鼠标弹起事件
 方法：无
+
 ---
 控件名：PPRCS （坐标系）
 属性：
@@ -348,6 +354,7 @@ P控件集简史：
 ...strPath（字符串）：必需，路径
 .Clear()
 ..清空
+
 ---
 控件名：PWinsock （Winsock封装）
 属性：无
@@ -412,6 +419,7 @@ P控件集简史：
 ..获取对方主机，IP，端口
 .LocalHostName()，LocalIP()，LocalPort()
 ..获取本地主机，IP，端口
+
 ---
 名称：PListBox （列表框）
 属性：
@@ -527,6 +535,7 @@ P控件集简史：
 ..读取文件
 ...strPath（字符串）：必需，文件路径
 ...Encryption（布尔型）：可选，决定文本读取时是否解密
+
 ---
 控件名：PMaths （数学控件）
 属性：无
@@ -556,6 +565,7 @@ P控件集简史：
 ..求VB表达式的值
 ...Code（字符串）：必需，VB表达式
 ....返回表达式的值（单精度型）
+
 ---
 控件名：PScreen （像素屏）
 属性：
@@ -578,6 +588,7 @@ P控件集简史：
 ...矩形=1，圆形=2
 事件：无
 方法：无
+
 ---
 控件名：PTab （选项卡）
 属性：
@@ -625,6 +636,7 @@ P控件集简史：
 ...NewIndex（整型）：返回新选项
 ...LastIndex（整型）：返回上次选项
 方法：无
+
 ---
 控件名：PWeather （天气控件）
 属性：无
@@ -640,6 +652,7 @@ P控件集简史：
 ..获取今后天气
 ...Days（整型）：可选，今后的哪一天，1<Days<4
 ...strCityName（字符串）：可选，城市名
+
 ---
 控件名：PWin8Form （仿Win8窗体）
 属性：
@@ -673,6 +686,7 @@ P控件集简史：
 ..返回/设置是否可以调整大小
 事件：无
 方法：无
+
 ---
 控件名：PUIMgr（UI管家）
 属性：无
@@ -715,6 +729,7 @@ P控件集简史：
 ...Container（对象）：必需，容器
 ...Control（对象）：必需，要透明的对象
 ...Transparency（整型）：必需，透明度，0-255
+
 ---
 控件名：PUIMgrPlus （UI管家加强）
 属性：无
@@ -743,6 +758,7 @@ P控件集简史：
 ...CGSPD（整型）：必需，渐变速度
 ...Delay（整型）：必需，延迟
 ...Index（整型）：必需，索引
+
 ---
 控件名：PNet （网络应用）
 属性：无
@@ -774,6 +790,7 @@ DownloadFile(strUrl As String, strSavePath As String) As Boolean
 ..strUrl（字符串）：必需，下载地址
 ..strSavePath（字符串）：必需，保存地址
 ...返回下载文件成功1，失败0（布尔值）
+
 ---
 控件名：PSubtitles （字幕）
 属性：
@@ -801,6 +818,7 @@ DownloadFile(strUrl As String, strSavePath As String) As Boolean
 ..返回/设置文本颜色渐变速度
 事件：无
 方法：无
+
 ---
 控件名：PUpdate （更新控件）
 属性：无
@@ -808,6 +826,7 @@ DownloadFile(strUrl As String, strSavePath As String) As Boolean
 方法：
 .CheckUpdate()
 ..涉及服务器安全，保密
+
 ---
 控件名：PCodeTextBox （代码框）
 属性：
@@ -842,6 +861,7 @@ DownloadFile(strUrl As String, strSavePath As String) As Boolean
 ..返回/设置每行的高度
 事件：无
 方法：无
+
 ---
 控件名：PContainer （容器）
 属性：
@@ -867,6 +887,7 @@ DownloadFile(strUrl As String, strSavePath As String) As Boolean
 .MouseUp(Button As Integer, Shift As Integer, x As Single, y As Single)
 ..鼠标弹起事件
 方法：无
+
 ---
 控件名：PCodeTextBoxE （简选择框）
 属性：
@@ -901,6 +922,7 @@ DownloadFile(strUrl As String, strSavePath As String) As Boolean
 ..值改变事件
 ...NewValue（布尔型）：返回是否选定
 方法：无
+
 ---
 控件名：PButtonE （简按钮）
 属性：
@@ -932,6 +954,7 @@ DownloadFile(strUrl As String, strSavePath As String) As Boolean
 .MouseUp(Button As Integer, Shift As Integer, x As Single, y As Single)
 ..鼠标弹起事件
 方法：无
+
 ---
 控件名：PTabE （简选项卡）
 属性：
@@ -972,4 +995,3 @@ DownloadFile(strUrl As String, strSavePath As String) As Boolean
 .SetIndex(ByVal Index As Integer)
 ..改变选项
 ...Index（整型）：必需，要切换到的索引
----
